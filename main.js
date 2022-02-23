@@ -1,3 +1,2 @@
-const addon = require("bindings")("main");
-
-console.log(addon.main());
+const testAddon = require("./build/Release/testaddon.node");
+console.log(testAddon.main());
